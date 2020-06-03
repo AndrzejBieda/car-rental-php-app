@@ -1,0 +1,232 @@
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+#mainNav
+{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  background: #2C3E50;
+}
+
+#mainNav .navbar-brand
+{
+	font-size: 28px;
+}
+
+#mainNav a
+{
+	font-size: 22px;
+	color: #fff;
+}
+
+#mainNav a:hover
+{
+	color: #eaeaea;
+}
+
+#login
+{
+	padding-top: 6rem;
+	padding-bottom: 0rem;
+	background-color: #18BC9C;
+}
+
+#login a{
+	margin: 10px;
+}
+
+header
+{
+	padding-top: 6rem;
+	padding-bottom: 5rem;
+	background-color: #18BC9C;
+}
+
+#gwiazda
+{
+	max-height: 256px;
+}
+
+h1
+{
+	font-size: 60px;
+	font-weight: 600;
+	color: #fff;
+	margin: 20px;
+}
+
+h2
+{
+	font-size: 50px;
+	font-weight: 600;
+	color: #2C3E50;
+	margin: 20px;
+	text-align: center;
+}
+
+h4
+{
+	font-size: 30px;
+	font-weight: 600;
+	color: #fff;
+	margin: 20px;
+}
+	
+.gwiazda
+{
+	max-width: 256px !important;
+}
+
+#samochody
+{
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	text-align: center;
+}
+
+#samochody img
+{
+	width: 100%;
+	height: auto;
+}
+
+#samochody p
+{
+	margin-bottom: 30px;
+}
+
+#samochody figcaption
+{
+	margin-top: 8px;
+	color: #2C3E50;
+}
+
+#oferta
+{
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	background-color: #18BC9C;
+	color: #fff;
+	font-size: 20px;
+}
+
+#oferta h2
+{
+	color: #fff;
+}
+
+#o_nas
+{
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	color: #2C3E50;
+	font-size: 20px;
+}
+
+#kontakt
+{
+	padding-top: 3rem;
+	padding-bottom: 4rem;
+	background-color: #18BC9C;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+
+#kontakt p
+{
+	margin: 0px;
+}
+
+#kontakt img
+{
+	max-height: 50px;
+	max-width: 50px;
+}
+
+footer
+{
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+	background-color: #2C3E50;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+/*rejestracja*/
+
+#startrej{
+	padding-top: 3rem;
+	padding-bottom: 0.1rem;
+	background-color: #18BC9C;
+}
+
+#rejestracja{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+/*wyniki*/
+
+#startwynik{
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+	background-color: #18BC9C;
+	margin-bottom: 2rem;
+}
+
+
+.wyniki_sam{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+.wyniki_sam_list img{
+	margin: 5px;
+}
+
+#kontakt_wynik
+{
+	padding-top: 3rem;
+	padding-bottom: 4rem;
+	background-color: #18BC9C;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 3rem;
+}
+
+#kontakt_wynik p
+{
+	margin: 0px;
+}
+
+#kontakt_wynik img
+{
+	max-height: 50px;
+	max-width: 50px;
+}
+
+/*potwierdzenie*/
+
+#potwierdzenie {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+.podsumowanie_kosztow {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
